@@ -85,3 +85,10 @@
 | RNF03 | Segurança | O sistema deve possuir níveis de acesso, permitindo somente ao administrador atualizar o status dos itens e analisar as justificativas de devolução. | Testar as permissões dos perfis e confirmar que usuários comuns não conseguem executar ações administrativas. |
 | RNF04 | Privacidade | O sistema deve restringir o acesso às informações pessoais dos usuários, evitando a exposição indevida de seus dados. | Verificar se informações pessoais não são exibidas publicamente sem necessidade. |
 | RNF05 | Acessibilidade | A interface deve considerar as necessidades de pessoas com deficiência (PCDs), buscando facilitar o acesso e a utilização do sistema. | Testar a navegação por teclado, a legibilidade dos textos e a utilização de recursos de acessibilidade. |
+
+## 6. Regras de negócio
+
+- **RN01:** Somente o administrador pode atualizar o status dos itens cadastrados no sistema.
+- **RN02:** A devolução de um item depende da análise das informações fornecidas pelo solicitante para comprovar a propriedade do objeto.
+- **RN03:** Quando um item for devolvido, devem ser registrados o destinatário, a data e o horário da devolução.
+- **RN04:** Os itens encontrados recebidos pelo setor de achados e perdidos devem ser cadastrados pelo administrador para que fiquem disponíveis no sistema.
