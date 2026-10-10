@@ -92,3 +92,24 @@
 - **RN02:** A devolução de um item depende da análise das informações fornecidas pelo solicitante para comprovar a propriedade do objeto.
 - **RN03:** Quando um item for devolvido, devem ser registrados o destinatário, a data e o horário da devolução.
 - **RN04:** Os itens encontrados recebidos pelo setor de achados e perdidos devem ser cadastrados pelo administrador para que fiquem disponíveis no sistema.
+
+- ## 7. Histórias de usuário
+
+- Como **pessoa que perdeu um item**, quero **cadastrar uma descrição e uma foto do objeto perdido**, para **facilitar sua identificação e recuperação**.
+- Como **pessoa que perdeu um item**, quero **consultar os itens encontrados no CEAGRI 2**, para **verificar se meu objeto foi localizado**.
+- Como **pessoa que solicita a devolução de um item**, quero **enviar uma justificativa e fotos para comprovar que o objeto me pertence**, para **aumentar a possibilidade de recuperar meu pertence**.
+- Como **administrador**, quero **cadastrar os itens encontrados que recebo**, para **disponibilizá-los para consulta no sistema**.
+- Como **administrador**, quero **analisar as justificativas de devolução**, para **verificar se o solicitante é o verdadeiro proprietário do objeto**.
+- Como **administrador**, quero **atualizar o status dos itens e registrar os dados das devoluções**, para **manter o controle dos objetos sob guarda e dos que já foram entregues**.
+
+- ## 8. Dúvidas em aberto
+
+- [ ] O sistema poderá ser acessado por qualquer pessoa ou somente por integrantes da comunidade acadêmica da UFRPE?
+- [ ] Quais informações serão obrigatórias no cadastro de um item perdido?
+- [ ] Como será confirmada a identidade da pessoa que solicita a devolução de um objeto?
+- [ ] Por quanto tempo os itens encontrados permanecerão sob guarda?
+- [ ] O que acontecerá com os objetos que não forem retirados após determinado período?
+- [ ] Como serão protegidos os dados pessoais e as fotos enviados pelos usuários?
+- [ ] Quais recursos específicos de acessibilidade serão implementados para pessoas com deficiência?
+
+[UFRPE](https://www.ufrpe.br/)
