@@ -75,3 +75,13 @@
   - [ ] Quando um item for devolvido, o sistema registra para quem ele foi entregue.
   - [ ] A data e o horário da devolução ficam registrados.
   - [ ] Usuários sem perfil de administrador não conseguem atualizar o status do item.
+
+ ## 5. Requisitos não funcionais
+
+| Código | Categoria | Requisito | Como medir |
+|--------|-----------|-----------|------------|
+| RNF01 | Usabilidade | O sistema deve possuir uma interface intuitiva, facilitando o acesso às funcionalidades de cadastro, consulta e solicitação de devolução. | Realizar testes de uso com usuários e verificar se conseguem executar as tarefas propostas. |
+| RNF02 | Desempenho | O sistema deve ser otimizado para reduzir o tempo de carregamento das telas e das consultas. | Verificar se as principais telas e consultas respondem em até 2 segundos em condições normais de uso. |
+| RNF03 | Segurança | O sistema deve possuir níveis de acesso, permitindo somente ao administrador atualizar o status dos itens e analisar as justificativas de devolução. | Testar as permissões dos perfis e confirmar que usuários comuns não conseguem executar ações administrativas. |
+| RNF04 | Privacidade | O sistema deve restringir o acesso às informações pessoais dos usuários, evitando a exposição indevida de seus dados. | Verificar se informações pessoais não são exibidas publicamente sem necessidade. |
+| RNF05 | Acessibilidade | A interface deve considerar as necessidades de pessoas com deficiência (PCDs), buscando facilitar o acesso e a utilização do sistema. | Testar a navegação por teclado, a legibilidade dos textos e a utilização de recursos de acessibilidade. |
